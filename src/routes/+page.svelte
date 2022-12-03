@@ -8,9 +8,7 @@
 
 <main>
 	<h1>computermusic.club</h1>
-	<div class="sub">
-		<Form />
-	</div>
+	<h3><em>❏❐ coming soon ❑❒</em></h3>
 </main>
 
 <style>
