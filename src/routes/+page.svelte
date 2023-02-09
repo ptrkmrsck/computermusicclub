@@ -1,7 +1,3 @@
-<script>
-	import Form from './Form.svelte';
-</script>
-
 <svelte:head>
 	<title>❏❐computermusic.club❑❒</title>
 </svelte:head>
@@ -9,9 +5,9 @@
 <main>
 	<h1>computermusic.club</h1>
 	<p>
-		The times that I am most motivated to things is after talking to people that are excited and
-		curious about making things. It feels like connecting with people really seamlessly flows into
-		connecting ideas, and what is making a thing if not the simple act of connecting ideas?
+		The times that I am most motivated to make things is after talking to people that are excited
+		and curious about making things. It feels like connecting with people really seamlessly flows
+		into connecting ideas, and what is making a thing if not the simple act of connecting ideas?
 	</p>
 
 	<p>
@@ -57,8 +53,12 @@
 	main {
 		font-family: monospace;
 	}
+	main {
+		max-width: 700px;
+	}
 	img {
-		width: 50vw;
+		width: 100%;
+		max-width: 600px;
 	}
 	a:visited {
 		color: blue;
