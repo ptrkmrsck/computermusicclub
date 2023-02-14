@@ -1,0 +1,12 @@
+body {
+  font-family: monospace;
+  max-width: 700px;
+}
+
+a:visited {
+  color: blue;
+}
+
+img {
+  max-width: 600px;
+}
