@@ -18,5 +18,5 @@ Make a [pull request](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Pr
 
 ## todo
 
-[] Update resources
-[] Schedule next meeting
+[ ] Update resources
+[ ] Schedule next meeting
