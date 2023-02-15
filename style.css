@@ -1,6 +1,11 @@
+html {
+  font-size: 16px;
+}
+
 body {
   font-family: monospace;
   max-width: 700px;
+  margin: 1rem auto;
 }
 
 a:visited {
