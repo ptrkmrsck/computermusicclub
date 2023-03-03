@@ -15,3 +15,12 @@ a:visited {
 img {
   max-width: 600px;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 1rem;
+  }
+  img {
+    max-width: 90vw;
+  }
+}
