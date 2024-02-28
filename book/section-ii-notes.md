@@ -1,3 +1,18 @@
+Meeting notes:
+Orca??
+
+"Control Change" non event based options?
+"meta-modulator"
+https://monome.org/docs/teletype/
+Perlin noise
+https://www.makenoisemusic.com/modules/richter-wogglebug
+zadar function generator
+synth bird sounds: https://www.youtube.com/watch?v=15jG1zfx-IM 14:20
+
+AI paramatarization https://soniccharge.com/patternarium#/28/Interswelt-Mimilegia
+
+Arca algo albumn: https://open.spotify.com/album/3bd81d2yQGiDRzckcQ42dr?si=8uyhpdFCScKFeDysAEBx0Q
+
 # History ofDigital Sound Synthesis
 
 ## Earliest Computer Sounds
@@ -34,8 +49,8 @@
 
 ## Alternatives to Wavetable Lookup
 
-- Thus, as pointed out by James McCartney (1997), waveforms like sine waves, expo- nentiated sine waves, formant oscillators, and chaotic oscillators can be generated much more efficiently by direct evaluation of their equation.
-  - digital waveguides or resonant filters
+- Thus, as pointed out by James McCartney (1997), waveforms like sine waves, exponentiated sine waves, formant oscillators, and chaotic oscillators can be generated much more efficiently by direct evaluation of their equation.
+- digital waveguides or resonant filters
 
 # Time-Varying Waveform Synthesis
 
@@ -58,8 +73,9 @@
 1. Closed apps
 2. Patchable apps
 3. Virtual modular synthesizers
-4. Graphical instrument patch editors • Textual synthesis languages
-5. Custom apps made using general-purpose programming languages
+4. Graphical instrument patch editors
+5. Textual synthesis languages
+6. Custom apps made using general-purpose programming languages
 
 - what type of person enjoys making music in non-realtime? Is there anything gained from AVOIDING realtime?
 - Is realtime even realtime when latency exists?
