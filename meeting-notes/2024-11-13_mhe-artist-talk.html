@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>mhe-artist-talk_2024-11-13</title>
+  <style>
+    html {
+      color: #fffff8;
+      background-color: #111111;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #FFC6D9;
+    }
+    a:visited {
+      color: #FFC6D9;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<h1 id="mark-engelmann-artist-talk-computermusic.club-2024-11-13">Mark
+Engelmann artist talk @ <a
+href="https://computermusic.club/">computermusic.club</a>,
+2024-11-13</h1>
+<h2 id="background">Background</h2>
+<ol type="1">
+<li>Classical percussion</li>
+<li>Keyboard
+<ul>
+<li>Rhodes → synths</li>
+</ul></li>
+<li>Computer music
+<ul>
+<li>Pure Data: early 2019</li>
+<li><a href="https://supercollider.github.io/">SuperCollider</a>: fall
+2022</li>
+</ul></li>
+<li>Main projects
+<ol type="1">
+<li><a href="https://straya.bandcamp.com/">Straya</a> (2014–2020)</li>
+<li><a href="https://rice.band">rice</a> (2016–)</li>
+<li><a href="https://mhengelmann.bandcamp.com/">M. Harlan Engelmann</a>
+(2021–)</li>
+</ol></li>
+<li>Current setup
+<ul>
+<li>SCD → BlackHole 16ch → Reaper (levels, limiting, reverb)</li>
+<li>Only plugin outside of basic Reaper plugins is <a
+href="https://valhalladsp.com/shop/reverb/valhalla-vintage-verb/">Valhalla
+VintageVerb</a></li>
+</ul></li>
+</ol>
+<h2 id="aesthetic">Aesthetic</h2>
+<ol type="1">
+<li>No livecoding, lots of advance preparation</li>
+<li>Time should flow quickly
+<ul>
+<li>Effect of drone music, but not same textures</li>
+</ul></li>
+<li>Averse to melody as focus; center timbre, texture, and harmony
+(given time to be heard)</li>
+<li>Want sounds presented “naturalistically” (light on compression,
+reverb, and EQ)</li>
+<li>Few layers, but each layer is dense (and separate)</li>
+</ol>
+<h2 id="writing-process">Writing process</h2>
+<ol type="1">
+<li>Start from building synth, exploring every corner of possible
+values</li>
+<li>Decide on control scheme
+<ul>
+<li>Spectrum from fixed media to free improv</li>
+<li>Computer allows you to choose exactly what you want to control or
+automate</li>
+</ul></li>
+<li>Build interface with controllers or GUI</li>
+</ol>
+<h2 id="algorithmic-composition">Algorithmic composition</h2>
+<ol type="1">
+<li>Don’t like regular sequencers; started with <a
+href="https://100r.co/site/orca.html">Orca</a>
+<ul>
+<li><strong>Demo</strong>: <a
+href="https://mhengelmann.bandcamp.com/track/western-electric">“Western
+Electric”</a></li>
+</ul></li>
+<li>Adding human feel
+<ul>
+<li>Rhythmic onset delay</li>
+</ul></li>
+<li>Pattern Library (<strong>demo</strong>:
+<code>pattern-demo.scd</code>)
+<ul>
+<li>Further can link parameter values, build out complex functions, nest
+patterns deeply</li>
+<li>Number of “performers” (<strong>demo</strong>:
+<code>planks.scd</code>)</li>
+</ul></li>
+<li>How complex does it need to be?</li>
+</ol>
+<h2 id="harmony-tuning">Harmony &amp; tuning</h2>
+<ol type="1">
+<li>JI concepts: unequal spacing, history, variable # of notes per
+octave
+<ul>
+<li><strong>Demo</strong>: <code>ji-demo.scd</code></li>
+<li>Non-octave repeating (<strong>demo</strong>: septimal whole tone
+stack)</li>
+<li>Further JI resources:
+<ul>
+<li><a href="https://www.kylegann.com/tuning.html">Kyle Gann: “Just
+Intonation Explained”</a></li>
+<li>Kyle Gann: <em>The Arithmetic of Listening: Tuning Theory and
+History for the Impractical Musician</em></li>
+<li><a href="https://www.youtube.com/@mannfishh">mannfishh
+(YouTube)</a></li>
+</ul></li>
+</ul></li>
+<li>Slow harmonic motion
+<ul>
+<li><strong>Demo</strong>: <code>49th.scd</code></li>
+</ul></li>
+<li>Gliss (continuous pitch space)
+<ul>
+<li><strong>Demo</strong>: “vox” in <code>ji-demo.scd</code></li>
+</ul></li>
+<li>Spacing/register as harmonic effect
+<ul>
+<li><strong>Demo</strong>: <a
+href="https://mhengelmann.bandcamp.com/track/nathlesse">“Nath’lesse”</a></li>
+</ul></li>
+<li>Detuning in stereo/splay, play with speed/shape</li>
+</ol>
+<h2 id="interacting-w-instruments-controllers-gui">Interacting w/
+instruments, controllers, &amp; GUI</h2>
+<ol type="1">
+<li>Guitar as controller
+<ul>
+<li>Imprecise, and more expressive than keyboard</li>
+<li>Exploit monophonic pitch tracking with polyphonic instrument</li>
+<li><strong>Demo</strong>: 3 patches in
+<code>guitar-samp.scd</code></li>
+</ul></li>
+<li>MIDI controllers
+<ul>
+<li>Button combos
+<ul>
+<li>Knobs that don’t activate without button</li>
+</ul></li>
+<li>Granular instrument (<strong>demo</strong>:
+<code>grain-rotate.scd</code>)
+<ul>
+<li>Rhythmic onset delay</li>
+</ul></li>
+<li>Albion keys (<strong>demo</strong>:
+<code>rice-dnd-2024.scd</code>)</li>
+</ul></li>
+<li>Interacting with other instruments
+<ul>
+<li>Send MIDI to hardware synth
+<ul>
+<li>Melody controlled by harmony and onsets</li>
+<li>Controls over contour and speed</li>
+</ul></li>
+</ul></li>
+<li>GUI
+<ul>
+<li>Making GUI fun</li>
+<li>Build the exact micro- or macro-parameters in any layout</li>
+</ul></li>
+</ol>
+<h2 id="structureform">Structure/form</h2>
+<ol type="1">
+<li>Scenes
+<ul>
+<li>Change instruments, processes, parameters of same instrument,
+etc.</li>
+</ul></li>
+<li>Linear process
+<ul>
+<li>Single parameter with large effect (<strong>demo</strong>: FM synth
+in <code>49th.scd</code>)</li>
+<li>Processes moving in opposite directions</li>
+<li>Synths becoming more or less stable (<strong>demo</strong>:
+<code>bells.scd</code>)</li>
+<li>Sometimes set time, often left to feel (<strong>demo</strong>:
+<code>carolers.scd</code>)</li>
+</ul></li>
+<li>Narrative structure, influenced by film/literature
+<ul>
+<li>Theme for a set</li>
+</ul></li>
+<li>Performing with other musicians</li>
+</ol>
+<h2 id="creating-synths">Creating synths</h2>
+<ol type="1">
+<li>Additive
+<ul>
+<li>Non-integer partials</li>
+</ul></li>
+<li>Based on physical instruments
+<ul>
+<li>Bells</li>
+<li><strong>Demo</strong>: Plucked string with improvements</li>
+<li><strong>Demo</strong>: “Sleigh Bells”</li>
+</ul></li>
+<li>Manipulating live signal to extend instrument capabilities
+<ul>
+<li>Polymetric looper</li>
+<li>Drum resonator</li>
+</ul></li>
+<li>Building instruments for free improv</li>
+</ol>
+</body>
+</html>
