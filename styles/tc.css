@@ -5,10 +5,3 @@ html {
 h1 {
   text-shadow: 2px 2px var(--cmc-light-teal);
 }
-
-.update {
-  background-color: var(--cmc-light-teal);
-  padding: 0.8rem;
-  border: 2px solid black;
-  border-radius: 0.4rem;
-}
